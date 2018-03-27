@@ -1,0 +1,76 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+@font-face {
+  	font-family: "FontAwesome";
+  	font-weight: normal;
+  	font-style : normal;
+        src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+        src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+
+.Comment {
+	font-family: 'Lato', sans-serif;
+	padding: 5px;
+	padding-bottom: 30px;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	background-color:  rgb(250, 250, 250);
+	border-bottom: 1px solid rgb(222, 222, 222);
+  	max-width: 600px;
+  	width: 100%;
+  	word-wrap: break-word;
+  	color: #333;
+}
+
+.Comment:nth-child(even) {
+	background-color: rgb(249, 240, 235);
+}
+
+.com {
+	margin: 20px;
+	font-size: 18px;
+}
+
+.com1 {
+	font-weight: bold;
+}
+
+.thumbUp,
+.thumbDown {
+	display: inline-block;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.thumbDown:before,
+.thumbUp:before {
+  	font-family: "FontAwesome";
+	margin: 12px;
+	font-size: 30px;
+}
+
+.thumbUp:before {
+	content: "\f164";
+	color: #2ecc71;
+}
+
+.thumbDown:before {
+	content: "\f165";
+	color: #e74c3c;
+}
+
+
+
+
+
+	
+
+
+
